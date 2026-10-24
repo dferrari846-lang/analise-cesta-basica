@@ -1,0 +1,244 @@
+HTML5 ESTRUTRA
+
+PAGINA INICIAL
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Esperança Viva - Início</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>ONG Esperança Viva</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Seja Voluntário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Transformando vidas através do amor e da solidariedade</h2>
+      <p>Há mais de 10 anos promovendo a inclusão social, educação e assistência para comunidades vulneráveis.</p>
+      <a href="cadastro.html" class="btn">Faça Parte</a>
+    </section>
+
+    <section class="sobre">
+      <h2>Sobre a Nossa Instituição</h2>
+      <p>A <strong>ONG Esperança Viva</strong> é uma organização sem fins lucrativos focada em oferecer suporte socioeducativo, capacitação profissional e apoio comunitário. Acreditamos que a educação e o trabalho voluntário são as ferramentas mais potentes para a transformação social.</p>
+      
+      <figure>
+        <picture>
+          <source srcset="assets/images/acao-social.webp" type="image/webp">
+          <img src="assets/images/acao-social.jpg" alt="Voluntários reunidos durante ação social comunitária">
+        </picture>
+        <figcaption>Ação voluntária de arrecadação e entrega de suprimentos em comunidades locais.</figcaption>
+      </figure>
+    </section>
+
+    <section class="valores">
+      <h2>Nossos Pilares</h2>
+      <ul>
+        <li><strong>Transparência:</strong> Gestão aberta de todos os recursos arrecadados.</li>
+        <li><strong>Inclusão:</strong> Oportunidades iguais para todos os cidadãos.</li>
+        <li><strong>Empatia:</strong> Acolhimento humano em todas as nossas frentes de atuação.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ONG Esperança Viva. Todos os direitos reservados.</p>
+    <address>
+      Contato: <a href="mailto:contato@esperancaviva.org.br">contato@esperancaviva.org.br</a> | Tel: (11) 98765-4321
+    </address>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+PAGINA DE PROGETOS  
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Esperança Viva - Projetos Sociais</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>ONG Esperança Viva</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html" class="active">Projetos</a></li>
+        <li><a href="cadastro.html">Seja Voluntário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro-projetos">
+      <h2>Nossas Iniciativas Sociais</h2>
+      <p>Conheça os programas contínuos desenvolvidos para capacitar jovens, adultos e idosos da nossa região.</p>
+    </section>
+
+    <section class="cards-grid">
+      <article class="card">
+        <picture>
+          <source srcset="assets/images/inclusao-digital.webp" type="image/webp">
+          <img src="assets/images/inclusao-digital.jpg" alt="Alunos em laboratório de informática">
+        </picture>
+        <div class="card-body">
+          <h3>Projeto Futuro Digital</h3>
+          <p>Oferecemos cursos gratuitos de informática básica, lógica de programação e criação de currículos para jovens em busca do primeiro emprego.</p>
+          <a href="cadastro.html" class="btn-card">Apoiar Projeto</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <picture>
+          <source srcset="assets/images/terceira-idade.webp" type="image/webp">
+          <img src="assets/images/terceira-idade.jpg" alt="Idosos participantes em oficina cultural">
+        </picture>
+        <div class="card-body">
+          <h3>Oficinas da Terceira Idade</h3>
+          <p>Atividades recreativas, aulas de artesanato, alfabetização de adultos e suporte psicológico para garantir bem-estar e qualidade de vida na melhor idade.</p>
+          <a href="cadastro.html" class="btn-card">Apoiar Projeto</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <picture>
+          <source srcset="assets/images/acao-social.webp" type="image/webp">
+          <img src="assets/images/acao-social.jpg" alt="Distribuição de cestas básicas">
+        </picture>
+        <div class="card-body">
+          <h3>Mãos que Nutrem</h3>
+          <p>Programa emergencial de arrecadação e montagem de cestas básicas para famílias cadastradas em situação de extrema vulnerabilidade.</p>
+          <a href="cadastro.html" class="btn-card">Apoiar Projeto</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ONG Esperança Viva. Todos os direitos reservados.</p>
+    <address>
+      Contato: <a href="mailto:contato@esperancaviva.org.br">contato@esperancaviva.org.br</a> | Tel: (11) 98765-4321
+    </address>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+PAGINA DE CADASTROS
+
+Subprograma Principal
+    Declarar Texto nome1
+    Declarar Real precoAnt1
+    Declarar Real precoAtu1
+    Declarar Real variacao1
+    Declarar Texto situacao1
+
+    Escrever "Digite o nome do primeiro produto: "
+    Ler nome1
+    Escrever "Digite o preço do " & nome1 & " no mês anterior: "
+    Ler precoAnt1
+    Escrever "Digite o preço atual do " & nome1 & ": "
+    Ler precoAtu1
+    Atribuir variacao1 <- ((precoAtu1 - precoAnt1) / precoAnt1) * 100
+    Se variacao1 > 0
+        Atribuir situacao1 <- "Aumento"
+    Senão
+        Se variacao1 < 0
+            Atribuir situacao1 <- "Queda"
+        Senão
+            Se variacao1 = 0
+                Atribuir situacao1 <- "Estável"
+            Fim
+        Fim
+    Fim
+    Declarar Texto nome2
+    Declarar Real precoAnt2
+    Declarar Real precoAtu2
+    Declarar Real variacao2
+    Declarar Texto situacao2
+
+    Escrever "Digite o nome do segundo produto: "
+    Ler nome2
+    Escrever "Digite o preço do " & nome2 & " no mês anterior: "
+    Ler precoAnt2
+    Escrever "Digite o preço atual do " & nome2 & ": "
+    Ler precoAtu2
+    Atribuir variacao2 <- ((precoAtu2 - precoAnt2) / precoAnt2) * 100
+    Se variacao2 > 0
+        Atribuir situacao2 <- "Aumento"
+    Senão
+        Se variacao2 < 0
+            Atribuir situacao2 <- "Queda"
+        Senão
+            Se variacao2 = 0
+                Atribuir situacao2 <- "Estável"
+            Fim
+        Fim
+    Fim
+    Declarar Texto nome3
+    Declarar Real precoAnt3
+    Declarar Real precoAtu3
+    Declarar Real variacao3
+    Declarar Texto situacao3
+
+    Escrever "Digite o nome do terceiro produto: "
+    Ler nome3
+    Escrever "Digite o preço do " & nome3 & " no mês anterior: "
+    Ler precoAnt3
+    Escrever "Digite o preço atual do " & nome3 & ": "
+    Ler precoAtu3
+    Atribuir variacao3 <- ((precoAtu3 - precoAnt3) / precoAnt3) * 100
+    Se variacao3 > 0
+        Atribuir situacao3 <- "Aumento"
+    Senão
+        Se variacao3 < 0
+            Atribuir situacao3 <- "Queda"
+        Senão
+            Se variacao3 = 0
+                Atribuir situacao3 <- "Estável"
+            Fim
+        Fim
+    Fim
+    Escrever "========================================"
+    Escrever "    RELATÓRIO DE ANÁLISE DA CESTA BÁSICA    "
+    Escrever "========================================"
+    Escrever "Produto 1: " & nome1
+    Escrever "Preço Mês Anterior: R$ " & precoAnt1
+    Escrever "Preço Mês Atual:    R$ " & precoAtu1
+    Escrever "Variação Percentual: " & variacao1 & "%"
+    Escrever "Situação do Preço:  " & situacao1
+    Escrever "----------------------------------------"
+    Escrever "Produto 2: " & nome2
+    Escrever "Preço Mês Anterior: R$ " & precoAnt2
+    Escrever "Preço Mês Atual:    R$ " & precoAtu2
+    Escrever "Variação Percentual: " & variacao2 & "%"
+    Escrever "Situação do Preço:  " & situacao2
+    Escrever "----------------------------------------"
+    Escrever "Produto 3: " & nome3
+    Escrever "Preço Mês Anterior: R$ " & precoAnt3
+    Escrever "Preço Mês Atual:    R$ " & precoAtu3
+    Escrever "Variação Percentual: " & variacao3 & "%"
+    Escrever "Situação do Preço:  " & situacao3
+    Escrever "----------------------------------------"
+Fim
